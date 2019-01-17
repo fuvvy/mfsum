@@ -16,11 +16,15 @@ Trying to do this by hand is a waste of time.
 Prerequisites
 -------------
 
-First, make sure the required packages are installed.
+Make sure all submodules get pulled upon initial cloning.
+
+    git clone --recurse-submodules https://github.com/fuvvy/mfsum
+
+Check that the required packages are installed.
 
     autotools autotools-dev automake autoconf libtool gcc
 
-Second, re-build the build environment after cloning the repository.
+Re-build the build environment after cloning the repository.
 
     autoreconf --force --install
 
