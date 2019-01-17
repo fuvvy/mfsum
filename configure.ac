@@ -1,4 +1,4 @@
-AC_INIT([mfsum], [0.1], [@.com],
+AC_INIT([mfsum], [0.1], [fuvvy-github@nym.hush.com],
              [mfsum], [http://github.com/fuvvy/mfsum])
 AC_PREREQ([2.59])
 AC_CONFIG_MACRO_DIR([m4])

@@ -33,3 +33,4 @@ ltmain.sh
 quick_test
 test/.deps/
 test/.dirstamp
+build-aux/

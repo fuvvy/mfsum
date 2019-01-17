@@ -13,6 +13,17 @@ is there any sub-group that sums to `5842`?
 
 Trying to do this by hand is a waste of time.
 
+Prerequisites
+-------------
+
+First, make sure the required packages are installed.
+
+    autotools autotools-dev automake autoconf libtool gcc
+
+Second, re-build the build environment after cloning the repository.
+
+    autoreconf --force --install
+
 Installing
 ----------
 
@@ -130,16 +141,6 @@ with the ulimit command.
 
 Running `ulimit -d unlimited` sould take care of the problem until you
 run out of physical memory and start swapping like crazy.
-
-For Developers
---------------
-
-You are going to need to re-build the build environment after cloning
-the repository.  Running `autoreconf --force --install` should take care
-of everything.
-
-    Prerequisites:
-       GNU Autotools automake autoconf autotools-dev
 
 License
 -------
