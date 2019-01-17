@@ -145,7 +145,7 @@ run out of physical memory and start swapping like crazy.
 License
 -------
 
-mfsum : A Subset Sum Solver Copyright 2013 Mike Fusaro
+mfsum : A Subset Sum Solver Copyright 2018 Mike Fusaro
 
 This file is part of mfsum.
 

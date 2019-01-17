@@ -1,6 +1,6 @@
 /*
  *  mfsum : A Subset Sum Solver
- *  Copyright 2013 Mike Fusaro
+ *  Copyright 2018 Mike Fusaro
  *
  *  This file is part of mfsum.
  *
